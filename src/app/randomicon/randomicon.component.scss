@@ -1,0 +1,14 @@
+.block
+{
+    width: 500px;
+    height: 500px;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.block button
+{
+    margin-bottom: 20px;
+}
