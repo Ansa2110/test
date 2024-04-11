@@ -1,6 +1,6 @@
 <div class="block">
     <button (click)="getRandomIcon()">Рандомный символ</button>
     <div>
-        <fa-icon [icon]="icon" [style.font-size]="'30px'"></fa-icon>
+        <fa-icon *ngIf="icon" [icon]="icon" [style.font-size]="'30px'"></fa-icon>
     </div>
 </div>
